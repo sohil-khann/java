@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class merge_2_arrays {
+
+	public static void main(String[] args) {
+		int s=0;
+		int[] a=new int[3];
+		
+		int b[]= new int[3];
+		int c[]=new int[6];
+		Scanner sc=new Scanner(System.in);
+
+		for(int i=0;i<3;i++) {
+		   a[i]=sc.nextInt();
+		} System.out.print("enter second array");
+		for(int j=0;j<3;j++) {
+			   b[j]=sc.nextInt();
+
+			
+			} 
+		 
+		for(int i=0;i<3;i++) {
+			   c[s]=a[i];
+			   s++;
+			   
+			   
+			}
+			for(int j=0;j<3;j++) {
+				 
+				c[s]=b[j];
+				   s++;
+				}
+			for(int j=0;j<6;j++) {
+				 
+				
+				   System.out.print(c[j]);
+				}
+			
+
+	}
+
+}
